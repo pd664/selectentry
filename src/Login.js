@@ -3,15 +3,17 @@ import PropTypes from 'prop-types';
 
 async function loginUser(credentials) {
   const host = process.env.BACKEND_URL
-  console.log({host})
-  return fetch(`${host}/login`, {
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(credentials)
-  })
-    .then(data => data.json())
- }
+  console.log(host)
+  return fetch(`${host}/login`
+//   , {
+//   //   headers: {
+//   //     'Content-Type': 'application/json'
+//   //   },
+//   //   body: JSON.stringify(credentials)
+//   // })
+//     .then(data => data.json())
+//  }
+  )}
 
 export default function Login({setToken}) {
   const [username, setUserName] = useState();
