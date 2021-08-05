@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 async function loginUser(credentials) {
   const host = process.env.BACKEND_URL
-  console.log(host)
   return fetch(`${host}/login`
 //   , {
 //   //   headers: {
