@@ -1,0 +1,44 @@
+.form {
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+    background-color: blue;
+    text-align: center;
+    line-height: 50px;
+}
+
+.form input{
+padding:5px;
+margin-top: 40px;
+}
+
+.for {
+    position: absolute;
+    
+  left: 42%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.heading {
+    margin-top: 60px;
+}
+
+.table {
+    position: absolute;
+    top: 80%;
+}
+
+.fom {
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+    background-color: blue;
+    text-align: center;
+    line-height: 45px;
+}
+
+.fom input {
+    width: 90%
+}
