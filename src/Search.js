@@ -9,7 +9,7 @@ const Search = () => {
     const [copy, setCopy] = useState("")
     const [data, setData] = useState([])
 
-    const host =  process.env.BACKEND_URL
+    const host =  process.env.REACT_APP_BACKEND_URL
 
     const searchRecordByName = () => {
         Axios.get(`${host}/search/searchRecordByName/${name}`)

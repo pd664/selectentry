@@ -8,7 +8,7 @@ const Submit = () => {
     const [date, setDate] = useState("")
     const [copy, setCopy] = useState("")
 
-    const host = process.env.BACKEND_URL
+    const host = process.env.REACT_APP_BACKEND_URL
 
     const add = () => {
         fetch(`${host}/submit`, {
