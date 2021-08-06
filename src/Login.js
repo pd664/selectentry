@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 async function loginUser(credentials) {
-  return fetch(`${process.env.REACT_APP_BACKEND_URL}/login`, {
+  return fetch('/login', {
     method: 'POST',
     // headers: {
     //   'Content-Type': 'application/json'

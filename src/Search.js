@@ -12,7 +12,7 @@ const Search = () => {
     const host =  process.env.REACT_APP_BACKEND_URL
 
     const searchRecordByName = () => {
-        Axios.get(`${host}/search/searchRecordByName/${name}`)
+        Axios.get(`/search/searchRecordByName/${name}`)
         .then((res) => {
             setData(res.data)
         })

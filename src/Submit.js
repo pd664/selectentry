@@ -11,7 +11,7 @@ const Submit = () => {
     const host = process.env.REACT_APP_BACKEND_URL
 
     const add = () => {
-        fetch(`${host}/submit`, {
+        fetch('/submit', {
                 method: "POST",
     
                 body: JSON.stringify({
